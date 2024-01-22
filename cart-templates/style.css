@@ -1,0 +1,116 @@
+    body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aliceblue;
+    }
+    
+    section {
+        background-color: white;
+        display: flex;
+        border: 1px solid black;
+        height: 30em;
+        width: 50em;
+        font-family: arial;
+        position: relative;
+        border-radius: 3px;
+        box-shadow: 4px 4px 12px rgba(0, 0, 0, .5);
+    }
+    
+    .img {
+        width: 40%;
+        height: auto;
+        padding-top: 30px;
+        position: absolute;
+        padding-left: 7%;
+    }
+    
+    img {
+        background-size: cover;
+        height: 190px;
+        width: 260px;
+        border-radius: 3px;
+    }
+    
+    h2 {
+        list-style: circle;
+    }
+    
+    .content {
+        height: auto;
+        width: 60%;
+        background-color: aqa;
+        margin-right: 0px;
+        padding-left: 45%;
+        position: absolute;
+    }
+    
+    h1 {
+        font-family: arial;
+    }
+    
+    p,
+    .strike {
+        color: rgb(177, 171, 171);
+    }
+    
+    .strike {
+        text-decoration: line-through 2px;
+    }
+    
+    .rating {
+        background-color: #0dbd48;
+        padding: 3px 4px;
+        color: white;
+        font-weight: bolder;
+    }
+    
+    .price {
+        margin-top: 25px;
+        cursor: pointer;
+    }
+    
+    ul {
+        padding-left: 18px;
+    }
+    
+    ul li {
+        line-height: 30px;
+    }
+    
+    button {
+        margin-top: 28px;
+        color: white;
+        font-size: medium;
+        border-radius: 5px;
+        position: absolute;
+    }
+    
+    .add-btn {
+        background-color: #f68d05;
+        border: none;
+        padding: 18px 60px;
+    }
+    
+    .buy-btn {
+        background-color: #1a51a4;
+        border: none;
+        padding: 18px 60px;
+        margin-left: 220px;
+    }
+    
+    .add-btn:hover {
+        cursor: pointer;
+        border-radius: 30px;
+        transition-timing-function: linear;
+        background-color: #0dbd48;
+    }
+    
+    .buy-btn:hover {
+        cursor: pointer;
+        border-radius: 30px;
+        transition-timing-function: linear;
+        background-color: #0dbd48;
+    }
